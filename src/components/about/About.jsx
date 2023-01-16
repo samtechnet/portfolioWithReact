@@ -20,20 +20,20 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-          <article className="about__card">
-              <FaAward className='about__card'/>
+            <article className="about__card">
+              <FaAward className='about__icon'/>
               <h5>Experience</h5>
               <small>1+ Year Working</small>
             </article>
             
             <article className="about__card">
-              <FiUsers className='about__card'/>
+              <FiUsers className='about__icon'/>
               <h5>Clients</h5>
               <small>5+ Nationwide</small>
             </article>
             
             <article className="about__card">
-              <VscFolderLibrary className='about__card'/>
+              <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
               <small>10+ Projects</small>
             </article>
@@ -46,6 +46,8 @@ const About = () => {
             <br />
             When I’m not coding or brainstorming on a new project, I’m either locked away in my library going through future tech, checking my stock portfolio, or playing Call of Duty War Zone.
           </p>
+
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
